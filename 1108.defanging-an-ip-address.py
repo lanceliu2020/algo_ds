@@ -7,7 +7,7 @@
 # @lc code=start
 class Solution:
     def defangIPaddr(self, address: str) -> str:
-        s = address.replance(".", "[.]")
+        s = address.replace(".", "[.]")
         return s
         
 # @lc code=end
